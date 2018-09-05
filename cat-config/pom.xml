@@ -5,36 +5,22 @@
 
 	<groupId>ink.zhaibo</groupId>
 	<artifactId>cat-config</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${cat.version}</version>
 	<packaging>jar</packaging>
 
 	<name>cat-config</name>
 	<description>micro-service config server</description>
 
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.4.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+    <parent>
+        <groupId>ink.zhaibo</groupId>
+        <artifactId>cat</artifactId>
+        <version>1.0.0</version>
+    </parent>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-		<spring-cloud.version>Finchley.SR1</spring-cloud.version>
-	</properties>
-
-	<dependencies>
+    <dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
@@ -58,6 +44,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>

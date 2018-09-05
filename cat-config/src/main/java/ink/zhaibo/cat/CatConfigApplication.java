@@ -12,7 +12,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 @EnableConfigServer
 public class CatConfigApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(CatConfigApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CatConfigApplication.class, args);
+    }
 }
