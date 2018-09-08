@@ -1,0 +1,15 @@
+server:
+  port: 7000
+spring:
+  cloud:
+    config:
+      server:
+        default:
+          application:
+            name: cat-config-server
+        git:
+          username:
+          password:
+          uri: https://github.com/ZhaiBo/springcloud-config.git
+          search-paths:
+      label: master

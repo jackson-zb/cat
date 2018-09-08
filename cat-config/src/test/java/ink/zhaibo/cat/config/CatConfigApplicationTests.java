@@ -1,4 +1,4 @@
-package ink.zhaibo.cat;
+package ink.zhaibo.cat.config;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

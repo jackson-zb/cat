@@ -1,0 +1,14 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: cat-service-one
+  profiles:
+    active: dev
+  cloud:
+    config:
+      label: master
+      profile: ${spring.profiles.active}
+      uri: http://localhost:7000/
+
