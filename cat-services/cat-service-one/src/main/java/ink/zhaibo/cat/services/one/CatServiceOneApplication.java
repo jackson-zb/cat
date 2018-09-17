@@ -1,4 +1,4 @@
-package ink.zhaibo.cat.service.one;
+package ink.zhaibo.cat.services.one;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
