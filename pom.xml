@@ -24,6 +24,7 @@
         <module>cat-services</module>
         <module>cat-visual</module>
         <module>cat-common</module>
+        <module>cat-zuul</module>
     </modules>
 
     <parent>
