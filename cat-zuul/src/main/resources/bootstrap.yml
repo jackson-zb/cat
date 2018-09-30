@@ -1,0 +1,16 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: cat-zuul
+
+spring:
+  application:
+    name: cat-zuul
+  profiles:
+    active: dev
+  cloud:
+    config:
+      label: master
+      profile: ${spring.profiles.active}
+      uri: http://localhost:7000/
